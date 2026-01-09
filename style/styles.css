@@ -40,6 +40,7 @@
 
 .header-container{
   background: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
 }
 
 .header-caption{
@@ -254,3 +255,37 @@
   cursor: pointer;
   margin-bottom: 16px ;
 }
+
+.footer-design{
+  background-color:#001931 ;
+}
+
+.footer-item{
+ padding: 120px 120px 80px ;
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer-item p{
+  font-size: 20px;
+  font-weight: 600;
+   color: #ffffff; 
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+.footer-icons li{
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.text-copy{
+  font-size: 16px;
+  font-weight: 500;
+   color: #ffffff; 
+   text-align: center;
+   padding-bottom: 30px;
+}
+
