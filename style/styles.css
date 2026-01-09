@@ -92,7 +92,7 @@
   align-items: center;
 }
 .second-btn{
-  padding: 14px 16px ;
+  padding: 16px 16.5px ;
   border-radius:4px ;
   font-size: 16px;
   font-weight: 600 ;
@@ -221,3 +221,36 @@
   gap:6px;
 }
 
+.challenge-cont{
+  width: 85%;
+  padding: 80px 40px;
+  background-color:#F7F6F2 ;
+  margin: 0 auto 120px;
+  text-align: center;
+}
+
+.challenge-cont h2{
+ margin-bottom: 16px ;
+ font-size: 40px;
+ font-weight: bold;
+}
+
+.challenge-cont p{
+    font-size: 16px;
+  font-weight: 500;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+.challenge-btn{
+  padding: 16px 16.5px ;
+  border-radius:4px ;
+  font-size: 16px;
+  font-weight: 600 ;
+  background-color:#469165 ;
+  border: 0;
+  color: white; 
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 16px ;
+}
