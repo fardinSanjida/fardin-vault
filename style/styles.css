@@ -100,7 +100,7 @@
   background-color:#469165 ;
   border: 0;
   color: white; 
-  margin-right: 10px;
+  margin-right: 16px;
   cursor: pointer;
 
    
@@ -207,7 +207,7 @@
 .solution-deco p{
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
 }
 
 .solution-bio{
@@ -216,6 +216,13 @@
   font-weight: 400;
   color:#627382 ;
 }
+
+.check-circle p{
+  font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
 
 .check-circle{
   display: flex;
@@ -238,7 +245,7 @@
 
 .challenge-cont p{
     font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #627382;
   margin-bottom: 24px;
 }
@@ -270,10 +277,12 @@
   font-size: 20px;
   font-weight: 600;
    color: #ffffff; 
-   text-align: center;
    margin-bottom: 16px;
 }
 
+.footer-icons{
+   width: 220px;
+}
 .footer-icons li{
   list-style: none;
   display: inline;
