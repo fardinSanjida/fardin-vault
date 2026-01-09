@@ -36,6 +36,15 @@
   border-radius:4px ;
   font-size: 16px;
   font-weight: 600 ;
+  cursor: pointer;
+}
+
+.btn:hover, .challenge-btn:hover{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 18px;
+  background-color:#001931 ;
+   transition: .4s;
 }
 
 .header-container{
@@ -62,11 +71,14 @@
   cursor: pointer;
 }
 
-/* .early-access-btn:hover{
+.early-access-btn:hover{
   color: white;
+  font-size: 18px;
+  padding: 18px 30px 18px 10px;
   background-color: #469165;
+   transition: .4s;
 
-} */
+}
 
 #upper-line{
   color: white;
@@ -99,11 +111,17 @@
   font-weight: 600 ;
   background-color:#469165 ;
   border: 0;
-  color: white; 
+ 
   margin-right: 16px;
-  cursor: pointer;
+  cursor: pointer;  
+}
 
-   
+.second-btn:hover, .third-btn:hover{
+   font-size: 18px;
+  padding: 14px 18px; color: white; 
+  background-color:#ffffff ;
+   color: #469165; 
+    transition: .4s;
 }
 
 .second-btn img{
